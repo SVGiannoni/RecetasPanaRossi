@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:51:19.411Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:51:40.376Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -21,3 +21,9 @@ Implementar la barra de búsqueda que permita consultar recetas filtrando por co
 ### RF-02: Filtros por categoría y mensaje de resultados vacíos (Funcional)
 
 Implementar selectores de categoría (Dulce, Salado, Vegano, Rápida) y desplegar mensaje informativo con sugerencias cuando no haya coincidencias.
+
+## HU-03: Guardado de recetas favoritas
+
+### RF-01: Acción para marcar y desmarcar favoritas (Funcional)
+
+Incorporar botón/icono interactivo en cada receta para agregarla o quitarla de la lista personal de favoritas del usuario.
