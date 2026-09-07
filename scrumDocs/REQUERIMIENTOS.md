@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T14:23:59.987Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T14:26:01.874Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -55,3 +55,9 @@ testeo del segundo requerimiento
 ### RF-01: testing de HU-03 (Funcional)
 
 testeo del 3er requerimiento
+
+## RO-05: Testeo completado y Aprobado
+
+### RF-01: Testeo completado y Aprobado (Funcional)
+
+todos los requerimientos cumplieron con exitos los testeos previos  
