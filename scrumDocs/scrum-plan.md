@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T18:31:21.409Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T18:31:31.941Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -25,6 +25,7 @@ Implementacion completada y verificada. 5/5 pruebas unitarias pasadas.
 - Estimado: 0h
 
 ### RF-01 — Configuración y puesta en marcha de VM de testing
+Dockerfile y docker-compose agregados y configurados. PR #2 abierto en GitHub hacia dev.
 - Estimado: 6h
 
 ### RF-02 — Servicio de persistencia y publicación en catálogo
