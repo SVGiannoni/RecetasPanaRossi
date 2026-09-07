@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  app-test:
+    image: tu-usuario/tu-repositorio:latest
+    container_name: app_testing
+    ports:
+      - "9443:8000"  # Puerto externo 8001 (puedes cambiarlo si usas otro)
+    environment:
+      - DEBUG=True
+      - DATABASE_URL=postgres://usuario:password@db-test:5432/db_test
+    restart: unless-stopped
+
+  db-test:
+    image: postgres:15-alpine
+    container_name: db_testing
+    environment:
+      - POSTGRES_DB=db_test
+      - POSTGRES_USER=usuario
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - pgdata_test:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  pgdata_test:
