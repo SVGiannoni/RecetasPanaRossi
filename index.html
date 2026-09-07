@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RecetasPanaRossi - Creación, publicación y catálogo de recetas por Agustín Pérez Rossi">
+  <title>RecetasPanaRossi - Catálogo y Alta de Receta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-icon">🍳</span>
+        <div>
+          <h1>RecetasPanaRossi</h1>
+          <p class="subtitle">El recetario oficial del chef Agustín Pérez Rossi</p>
+        </div>
+      </div>
+      <div class="header-badge">RF-01 &amp; RF-02 — Alta y Catálogo</div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <div class="grid-layout">
+      <!-- Section Form -->
+      <section class="card form-card">
+        <div class="card-header">
+          <h2>Nueva Receta</h2>
+          <p>Completá el formulario para crear, validar y publicar tu receta en el catálogo.</p>
+        </div>
+
+        <div id="form-alert" class="alert hidden" role="alert"></div>
+
+        <form id="recipe-form" novalidate>
+          <!-- Title -->
+          <div class="form-group">
+            <label for="recipe-title" class="required-label">Título de la Receta</label>
+            <input type="text" id="recipe-title" name="title" placeholder="Ej: Tarta Tatin de Manzanas Caramelizadas" required autocomplete="off">
+            <span id="error-title" class="field-error"></span>
+          </div>
+
+          <!-- Category, Prep Time, Servings -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="recipe-category" class="required-label">Categoría</label>
+              <select id="recipe-category" name="category" required>
+                <option value="" disabled selected>Seleccioná una categoría</option>
+                <option value="Dulce">Dulce / Postres</option>
+                <option value="Salado">Salado / Platos Principales</option>
+                <option value="Repostería">Repostería / Pastelería</option>
+                <option value="Vegano">Vegano</option>
+                <option value="Rápida">Cocina Rápida</option>
+              </select>
+              <span id="error-category" class="field-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-prep-time" class="required-label">Tiempo (minutos)</label>
+              <input type="number" id="recipe-prep-time" name="prepTime" min="1" max="1440" placeholder="Ej: 45" required>
+              <span id="error-prep-time" class="field-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-servings" class="required-label">Porciones</label>
+              <input type="number" id="recipe-servings" name="servings" min="1" max="100" placeholder="Ej: 4" required>
+              <span id="error-servings" class="field-error"></span>
+            </div>
+          </div>
+
+          <!-- Ingredients -->
+          <div class="form-group">
+            <label for="recipe-ingredients" class="required-label">Lista de Ingredientes</label>
+            <p class="field-help">Ingresá cada ingrediente con su cantidad (un ingrediente por línea).</p>
+            <textarea id="recipe-ingredients" name="ingredients" rows="4" placeholder="Ej:&#10;200g de harina de trigo 0000&#10;100g de manteca fría&#10;3 manzanas verdes cortadas en gajos" required></textarea>
+            <span id="error-ingredients" class="field-error"></span>
+          </div>
+
+          <!-- Steps -->
+          <div class="form-group">
+            <label for="recipe-steps" class="required-label">Pasos de Preparación</label>
+            <p class="field-help">Detallá el paso a paso ordenado para la preparación (un paso por línea).</p>
+            <textarea id="recipe-steps" name="steps" rows="4" placeholder="Ej:&#10;1. Precalentar el horno a 180°C.&#10;2. Preparar el caramelo en el molde.&#10;3. Disponer las manzanas y cubrir con la masa." required></textarea>
+            <span id="error-steps" class="field-error"></span>
+          </div>
+
+          <!-- Actions -->
+          <div class="form-actions">
+            <button type="button" id="btn-reset" class="btn btn-secondary">Limpiar Formulario</button>
+            <button type="submit" id="btn-submit" class="btn btn-primary">
+              <span class="btn-icon">✨</span> Publicar en Catálogo
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Section Live Preview & Live Catalog -->
+      <section class="card catalog-card">
+        <div class="card-header">
+          <h2>Catálogo Principal de Recetas</h2>
+          <p>Recetas publicadas y disponibles en la plataforma.</p>
+        </div>
+
+        <div id="catalog-list" class="catalog-grid">
+          <!-- Se completa mediante JS con store.js -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <p>RecetasPanaRossi &copy; 2026 — Proyecto en desarrollo continuo.</p>
+  </footer>
+
+  <script src="store.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
