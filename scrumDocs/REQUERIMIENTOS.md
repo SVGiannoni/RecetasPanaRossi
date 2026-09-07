@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T14:14:57.509Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T14:20:20.592Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -37,3 +37,9 @@ Crear la vista en el perfil del usuario autenticado donde se listen exclusivamen
 ### RF-01: Configuración y puesta en marcha de VM de testing (Funcional)
 
 Levantar instancia de VM con Docker y proxy inverso para desplegar la rama testing, permitiendo que el equipo de QA valide las entregas.
+
+## RO-02: testing del HU-01
+
+### RF-01: testing del HU-01 (Funcional)
+
+prueba de testeo del primer requerimiento
