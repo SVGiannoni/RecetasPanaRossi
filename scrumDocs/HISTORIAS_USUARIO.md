@@ -1,6 +1,6 @@
 # Historias de Usuario --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:40:18.582Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:40:30.581Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -21,3 +21,12 @@ Como visitante del recetario quiero buscar recetas por palabra clave o filtrarla
 Existe una barra de búsqueda funcional por título o ingredientes.
 Se puede filtrar por categorías (ej: Dulce, Salado, Vegano, Rápida).
 Si no hay coincidencias, se muestra un mensaje informativo sugiriendo ajustar los filtros.
+
+## HU-03: Guardado de recetas favoritas
+
+Como usuario registrado quiero marcar recetas como favoritas para acceder rápidamente a mis platos preferidos en cualquier momento.
+
+### Criterios de Aceptacion
+
+Cada receta dispone de una opción (botón/icono) para marcar o desmarcar como favorita.
+En la sección "Mis Favoritas" del perfil de usuario se despliegan únicamente las recetas guardadas.
