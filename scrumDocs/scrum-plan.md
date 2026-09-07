@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T13:14:05.501Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T13:14:09.705Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -9,7 +9,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | Hecho | dev2-dashboard | — | — |
 | 2 | RF-02 | Servicio de persistencia y publicación en catálogo | HU-01 | — | — | Hecho | dev2-dashboard | — | — |
 | 3 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hecho | dev2-dashboard | — | — |
-| 4 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Hacer | Sin asignar | — | — |
+| 4 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Haciendo | dev2-dashboard | — | — |
 | 5 | RF-01 | Acción para marcar y desmarcar favoritas | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 6 | RF-02 | Sección 'Mis Favoritas' en perfil | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 7 | RF-01 | Configuración y puesta en marcha de VM de testing | RO-01 | — | — | Hacer | dev-recetaspanarossi | — | — |
@@ -29,6 +29,7 @@ Busqueda por palabra clave e ingredientes completada y verificada. 4/4 pruebas u
 - Estimado: 0h
 
 ### RF-02 — Filtros por categoría y mensaje de resultados vacíos
+Inicio de desarrollo de filtros por categoria y mensaje de resultados vacios
 - Estimado: 0h
 
 ### RF-01 — Acción para marcar y desmarcar favoritas
