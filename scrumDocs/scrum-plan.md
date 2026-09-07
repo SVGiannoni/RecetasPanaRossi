@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T18:58:18.388Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T18:58:34.271Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -21,7 +21,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 ## Detalle
 
 ### RF-01 — Formulario de alta y validación de recetas
-Implementacion completada y verificada. 5/5 pruebas unitarias pasadas.
+Implementacion de HU-01 finalizada y verificada. Frontend interactivo y pruebas unitarias. PR #3 abierto hacia dev.
 - Estimado: 0h
 
 ### RF-01 — Configuración y puesta en marcha de VM de testing
