@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:51:40.376Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:51:52.570Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -27,3 +27,7 @@ Implementar selectores de categoría (Dulce, Salado, Vegano, Rápida) y desplega
 ### RF-01: Acción para marcar y desmarcar favoritas (Funcional)
 
 Incorporar botón/icono interactivo en cada receta para agregarla o quitarla de la lista personal de favoritas del usuario.
+
+### RF-02: Sección 'Mis Favoritas' en perfil (Funcional)
+
+Crear la vista en el perfil del usuario autenticado donde se listen exclusivamente las recetas marcadas como favoritas.
