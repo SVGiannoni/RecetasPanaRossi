@@ -1,12 +1,12 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T18:31:50.438Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T18:58:18.388Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
 | Orden | Código | Requerimiento | Historia de Usuario | Módulo | Entrega | Estado | Desarrollador | Depende de | Rechazos |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | Hecho ✓ dev | dev2-dashboard | — | — |
+| 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | Hecho ✓ dev | dev-recetaspanarossi | — | — |
 | 2 | RF-01 | Configuración y puesta en marcha de VM de testing | RO-01 | — | — | Hecho ✓ dev | dev-recetaspanarossi | — | — |
 | 3 | RF-02 | Servicio de persistencia y publicación en catálogo | HU-01 | — | — | Hecho ✓ dev | dev2-dashboard | RF-01 | — |
 | 4 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hecho ✓ dev | dev2-dashboard | RF-02 | — |
