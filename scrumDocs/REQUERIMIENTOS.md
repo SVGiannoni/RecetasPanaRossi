@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:51:52.570Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:52:07.042Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -31,3 +31,9 @@ Incorporar botón/icono interactivo en cada receta para agregarla o quitarla de 
 ### RF-02: Sección 'Mis Favoritas' en perfil (Funcional)
 
 Crear la vista en el perfil del usuario autenticado donde se listen exclusivamente las recetas marcadas como favoritas.
+
+## RO-01: Configuración y puesta en marcha de VM de testing
+
+### RF-01: Configuración y puesta en marcha de VM de testing (Funcional)
+
+Levantar instancia de VM con Docker y proxy inverso para desplegar la rama testing, permitiendo que el equipo de QA valide las entregas.
