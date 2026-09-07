@@ -1,6 +1,6 @@
 # Grafo de Dependencias --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T14:10:59.933Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T14:14:53.679Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -20,4 +20,7 @@ graph TD
     REQ_1788785524811["RF-01: Configuración y puesta en marcha de VM de testing"]
   end
   REQ_1788785182545 --> REQ_1788785196739
+  REQ_1788785196739 --> REQ_1788785446610
+  REQ_1788785446610 --> REQ_1788785477255
+  REQ_1788785477255 --> REQ_1788785498187
 ```
