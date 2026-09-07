@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T14:20:59.155Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T14:21:48.691Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -43,3 +43,9 @@ Levantar instancia de VM con Docker y proxy inverso para desplegar la rama testi
 ### RF-01: testing del HU-01 (Funcional)
 
 prueba de testeo del primer requerimiento
+
+## RO-03: testing de HU-02
+
+### RF-01: testing de HU-02 (Funcional)
+
+testeo del segundo requerimiento
