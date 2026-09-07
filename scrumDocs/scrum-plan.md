@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T12:51:50.613Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T12:52:04.824Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -12,6 +12,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 4 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Hacer | Sin asignar | — | — |
 | 5 | RF-01 | Acción para marcar y desmarcar favoritas | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 6 | RF-02 | Sección 'Mis Favoritas' en perfil | HU-03 | — | — | Hacer | Sin asignar | — | — |
+| 7 | RF-01 | Configuración y puesta en marcha de VM de testing | RO-01 | — | — | Hacer | dev-recetaspanarossi | — | — |
 
 ## Detalle
 
@@ -32,3 +33,6 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 
 ### RF-02 — Sección 'Mis Favoritas' en perfil
 - Estimado: 0h
+
+### RF-01 — Configuración y puesta en marcha de VM de testing
+- Estimado: 6h
