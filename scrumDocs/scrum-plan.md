@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T13:09:48.901Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T13:09:53.033Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -8,7 +8,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | Hecho | dev2-dashboard | — | — |
 | 2 | RF-02 | Servicio de persistencia y publicación en catálogo | HU-01 | — | — | Hecho | dev2-dashboard | — | — |
-| 3 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hacer | Sin asignar | — | — |
+| 3 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hacer | dev2-dashboard | — | — |
 | 4 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Hacer | Sin asignar | — | — |
 | 5 | RF-01 | Acción para marcar y desmarcar favoritas | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 6 | RF-02 | Sección 'Mis Favoritas' en perfil | HU-03 | — | — | Hacer | Sin asignar | — | — |
