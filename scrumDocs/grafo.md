@@ -1,6 +1,6 @@
 # Grafo de Dependencias --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:51:53.511Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:52:08.226Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -15,5 +15,8 @@ graph TD
   subgraph US_1788784829317["HU-03: Guardado de recetas favoritas"]
     REQ_1788785498187["RF-01: Acción para marcar y desmarcar favoritas"]
     REQ_1788785510602["RF-02: Sección 'Mis Favoritas' en perfil"]
+  end
+  subgraph US_1788785524805["RO-01: Configuración y puesta en marcha de VM de testing"]
+    REQ_1788785524811["RF-01: Configuración y puesta en marcha de VM de testing"]
   end
 ```
