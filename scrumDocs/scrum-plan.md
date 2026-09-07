@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T14:26:27.606Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T14:26:38.185Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
