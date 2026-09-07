@@ -1,6 +1,6 @@
 # Grafo de Dependencias --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T14:21:00.140Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T14:21:49.640Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -21,6 +21,9 @@ graph TD
   end
   subgraph US_1788790818388["RO-02: testing del HU-01"]
     REQ_1788790818395["RF-01: testing del HU-01"]
+  end
+  subgraph US_1788790905857["RO-03: testing de HU-02"]
+    REQ_1788790905863["RF-01: testing de HU-02"]
   end
   REQ_1788785182545 --> REQ_1788785196739
   REQ_1788785196739 --> REQ_1788785446610
