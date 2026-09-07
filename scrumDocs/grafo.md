@@ -1,6 +1,6 @@
 # Grafo de Dependencias --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:51:20.420Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:51:41.306Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -11,5 +11,8 @@ graph TD
   subgraph US_1788784817567["HU-02: Búsqueda y filtrado de recetas por categoría e ingredientes"]
     REQ_1788785446610["RF-01: Búsqueda por palabra clave e ingredientes"]
     REQ_1788785477255["RF-02: Filtros por categoría y mensaje de resultados vacíos"]
+  end
+  subgraph US_1788784829317["HU-03: Guardado de recetas favoritas"]
+    REQ_1788785498187["RF-01: Acción para marcar y desmarcar favoritas"]
   end
 ```
