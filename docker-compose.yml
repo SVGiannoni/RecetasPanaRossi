@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: app_recetario
     ports:
-      - "8000:8000"
+      - "8087:8000"
     environment:
       - DEBUG=True
       - DATABASE_URL=postgres://usuario:password@db:5432/recetas_db
@@ -23,7 +23,7 @@ services:
       - POSTGRES_USER=usuario
       - POSTGRES_PASSWORD=password
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     restart: unless-stopped
