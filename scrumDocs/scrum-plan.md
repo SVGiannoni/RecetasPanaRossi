@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-07T12:46:36.756Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-07T12:50:46.628Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -8,6 +8,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | Hacer | Sin asignar | — | — |
 | 2 | RF-02 | Servicio de persistencia y publicación en catálogo | HU-01 | — | — | Hacer | Sin asignar | — | — |
+| 3 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hacer | Sin asignar | — | — |
 
 ## Detalle
 
@@ -15,4 +16,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 - Estimado: 0h
 
 ### RF-02 — Servicio de persistencia y publicación en catálogo
+- Estimado: 0h
+
+### RF-01 — Búsqueda por palabra clave e ingredientes
 - Estimado: 0h
