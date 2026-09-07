@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-07T12:46:38.841Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-07T12:50:50.230Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -11,3 +11,9 @@ Implementar la interfaz de usuario y las validaciones de campos obligatorios (t�
 ### RF-02: Servicio de persistencia y publicación en catálogo (Funcional)
 
 Implementar la lógica y endpoint para almacenar la receta en base de datos y hacerla visible en el catálogo principal tras su publicación.
+
+## HU-02: Búsqueda y filtrado de recetas por categoría e ingredientes
+
+### RF-01: Búsqueda por palabra clave e ingredientes (Funcional)
+
+Implementar la barra de búsqueda que permita consultar recetas filtrando por coincidencia en el título o en la lista de ingredientes.
