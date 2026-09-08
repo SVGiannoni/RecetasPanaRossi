@@ -1,6 +1,6 @@
 # Grafo de Dependencias --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-08T12:38:40.872Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-08T13:57:52.246Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
