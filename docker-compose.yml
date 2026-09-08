@@ -1,0 +1,31 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app_recetario
+    command: ["python", "-m", "http.server", "8000"]
+    ports:
+      - "8087:8000"
+    environment:
+      - DEBUG=True
+      - DATABASE_URL=postgres://usuario:password@db:5432/recetas_db
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15-alpine
+    container_name: db_recetario
+    environment:
+      - POSTGRES_DB=recetas_db
+      - POSTGRES_USER=usuario
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:

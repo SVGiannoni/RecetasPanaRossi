@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetas Pana Rossi - El Recetario de Agustín Pérez Rossi</title>
+  <meta name="description" content="Recetario y catálogo de cocina del pastelero Agustín Pérez Rossi. Publica, busca y guarda tus recetas preferidas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-logo" id="brand-logo">
+        <span class="chef-hat">👨‍🍳</span>
+        <div>
+          <h1 class="brand-title">Recetas Pana Rossi</h1>
+          <p class="brand-subtitle">Let him cook ✨</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <button class="nav-btn active" id="nav-catalog-btn" onclick="showCatalogView()">📖 Catálogo</button>
+        <button class="nav-btn primary-btn" id="nav-create-btn" onclick="openCreateModal()">+ Nueva Receta</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner">
+    <div class="hero-content">
+      <span class="hero-badge">El Arte de la Pastelería y Cocina</span>
+      <h2 class="hero-title">Comparte tus mejores creaciones culinarias</h2>
+      <p class="hero-desc">Registra tus ingredientes, pasos secretos y publica tus platos en la comunidad.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+    <div class="section-header">
+      <div>
+        <h3 class="section-title">Catálogo de Recetas</h3>
+        <p class="section-subtitle" id="recipes-counter">Cargando recetas...</p>
+      </div>
+      <button class="btn btn-outline" id="btn-quick-new" onclick="openCreateModal()">
+        <span>+ Publicar Receta</span>
+      </button>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast-message" class="toast-message" role="alert" aria-live="assertive"></div>
+
+    <!-- Recipe Grid -->
+    <div class="recipes-grid" id="recipes-grid">
+      <!-- Inyectado dinámicamente con JS -->
+    </div>
+  </main>
+
+  <!-- Modal Formulario de Creación / Publicación (HU-01) -->
+  <div class="modal-backdrop" id="recipe-modal" style="display: none;">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-icon">🍰</span>
+          <div>
+            <h3 id="modal-title" class="modal-title">Nueva Receta</h3>
+            <p class="modal-subtitle">Completa los datos para publicar tu receta en el catálogo</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="btn-close-modal" onclick="closeCreateModal()" aria-label="Cerrar modal">&times;</button>
+      </div>
+
+      <form id="recipe-form" class="recipe-form" onsubmit="handleFormSubmit(event)" novalidate>
+        <div class="form-group">
+          <label for="recipe-title" class="form-label">Título de la receta <span class="required">*</span></label>
+          <input type="text" id="recipe-title" name="title" class="form-input" placeholder="Ej. Medialunas de manteca estilo Rossi" required>
+          <span class="field-error" id="error-title"></span>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="recipe-category" class="form-label">Categoría <span class="required">*</span></label>
+            <select id="recipe-category" name="category" class="form-select" required>
+              <option value="Dulce">Dulce</option>
+              <option value="Salado">Salado</option>
+              <option value="Vegano">Vegano</option>
+              <option value="Rápida">Rápida</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="recipe-time" class="form-label">Tiempo (minutos)</label>
+            <input type="number" id="recipe-time" name="prepTime" class="form-input" min="1" placeholder="Ej. 45" value="45">
+          </div>
+          <div class="form-group">
+            <label for="recipe-servings" class="form-label">Porciones</label>
+            <input type="number" id="recipe-servings" name="servings" class="form-input" min="1" placeholder="Ej. 6" value="4">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="recipe-ingredients" class="form-label">Lista de ingredientes <span class="required">*</span> (uno por renglón)</label>
+          <textarea id="recipe-ingredients" name="ingredients" class="form-textarea" rows="4" placeholder="500g harina 000&#10;250g manteca pomada&#10;100g azúcar&#10;1 pizca de sal" required></textarea>
+          <span class="field-error" id="error-ingredients"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="recipe-steps" class="form-label">Pasos de preparación <span class="required">*</span></label>
+          <textarea id="recipe-steps" name="steps" class="form-textarea" rows="5" placeholder="1. Mezclar los secos en un bowl amplio.&#10;2. Incorporar la manteca y arenar con paciencia.&#10;3. Hornear a 180°C durante 25 minutos." required></textarea>
+          <span class="field-error" id="error-steps"></span>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeCreateModal()">Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="btn-submit-recipe">Publicar Receta</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Detalle Modal de Receta -->
+  <div class="modal-backdrop" id="detail-modal" style="display: none;">
+    <div class="modal-card modal-card-detail">
+      <div class="modal-header">
+        <h3 id="detail-title" class="modal-title">Detalle de la Receta</h3>
+        <button class="modal-close-btn" onclick="closeDetailModal()">&times;</button>
+      </div>
+      <div class="detail-body" id="detail-body">
+        <!-- Inyectado dinámicamente -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2026 Recetas Pana Rossi · Cocinado con dedicación y pasión.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
