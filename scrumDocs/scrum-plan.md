@@ -1,6 +1,6 @@
 # Plan de Requerimientos —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-09-09T11:55:59.704Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-09T11:56:02.662Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -12,7 +12,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 4 | RF-01 | Búsqueda por palabra clave e ingredientes | HU-02 | — | — | Hecho | dev-recetaspanarossi | RF-02 | — |
 | 5 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Hecho | dev-recetaspanarossi | RF-01 | — |
 | 6 | RF-01 | Acción para marcar y desmarcar favoritas | HU-03 | — | — | Hecho | dev-recetaspanarossi | RF-02 | — |
-| 7 | RF-02 | Sección 'Mis Favoritas' en perfil | HU-03 | — | — | Hecho | dev-recetaspanarossi | RF-01 | — |
+| 7 | RF-02 | Sección 'Mis Favoritas' en perfil | HU-03 | — | — | Hecho | dev-portfolio | RF-01 | — |
 | 8 | RF-01 | testing del HU-01 | RO-02 | — | 1ra Entrega | Hacer | QA | RF-01, RF-02 | — |
 | 9 | RF-01 | testing de HU-02 | RO-03 | — | 1ra Entrega | Hacer | QA | RF-01 | — |
 | 10 | RF-01 | testing de HU-03 | RO-04 | — | 1ra Entrega | Hacer | QA | RF-01 | — |
