@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-21T13:38:10.296Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-21T13:38:30.760Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
