@@ -1,6 +1,6 @@
 # Requerimientos --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-09-21T13:38:35.926Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-24T19:24:12.573Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
@@ -8,9 +8,17 @@ _Generado automaticamente el 2026-09-21T13:38:35.926Z -- no editar a mano, se so
 
 Implementar la interfaz de usuario y las validaciones de campos obligatorios (título, categoría, tiempo, porciones, lista de ingredientes y pasos de preparación).
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ### RF-02: Servicio de persistencia y publicación en catálogo (Funcional)
 
 Implementar la lógica y endpoint para almacenar la receta en base de datos y hacerla visible en el catálogo principal tras su publicación.
+
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
 
 ## HU-02: Búsqueda y filtrado de recetas por categoría e ingredientes
 
@@ -18,9 +26,17 @@ Implementar la lógica y endpoint para almacenar la receta en base de datos y ha
 
 Implementar la barra de búsqueda que permita consultar recetas filtrando por coincidencia en el título o en la lista de ingredientes.
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ### RF-02: Filtros por categoría y mensaje de resultados vacíos (Funcional)
 
 Implementar selectores de categoría (Dulce, Salado, Vegano, Rápida) y desplegar mensaje informativo con sugerencias cuando no haya coincidencias.
+
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
 
 ## HU-03: Guardado de recetas favoritas
 
@@ -28,9 +44,17 @@ Implementar selectores de categoría (Dulce, Salado, Vegano, Rápida) y desplega
 
 Incorporar botón/icono interactivo en cada receta para agregarla o quitarla de la lista personal de favoritas del usuario.
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ### RF-02: Sección 'Mis Favoritas' en perfil (Funcional)
 
 Crear la vista en el perfil del usuario autenticado donde se listen exclusivamente las recetas marcadas como favoritas.
+
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
 
 ## RO-01: Configuración y puesta en marcha de VM de testing
 
@@ -38,11 +62,19 @@ Crear la vista en el perfil del usuario autenticado donde se listen exclusivamen
 
 Levantar instancia de VM con Docker y proxy inverso para desplegar la rama testing, permitiendo que el equipo de QA valide las entregas.
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ## RO-02: testing del HU-01
 
 ### RF-01: testing del HU-01 (Funcional)
 
 prueba de testeo del primer requerimiento
+
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
 
 ## RO-03: testing de HU-02
 
@@ -50,14 +82,26 @@ prueba de testeo del primer requerimiento
 
 testeo del segundo requerimiento
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ## RO-04: testing de HU-03
 
 ### RF-01: testing de HU-03 (Funcional)
 
 testeo del 3er requerimiento
 
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
+
 ## RO-05: Testeo completado y Aprobado
 
 ### RF-01: Testeo completado y Aprobado (Funcional)
 
 todos los requerimientos cumplieron con exitos los testeos previos  
+
+**Condiciones de aprobación**
+
+_Sin condiciones de aprobación cargadas: pedíselas al Project Manager o al Scrum Master antes de darlo por terminado._
