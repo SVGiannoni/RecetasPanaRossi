@@ -1,10 +1,10 @@
-# Plan de Requerimientos —  RecetasPanaRossi
+# Plan de Tareas —  RecetasPanaRossi
 
-_Generado automáticamente el 2026-10-09T14:42:14.591Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-10-09T16:55:16.410Z — no editar a mano, se sobreescribe en cada publicación._
 
-Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
+Orden sugerido de desarrollo (respeta dependencias entre Tareas). Cada fila indica de qué Tareas depende, si tiene.
 
-| Orden | Código | Requerimiento | Historia de Usuario | Módulo | Entrega | Estado | Desarrollador | Depende de | Rechazos |
+| Orden | Código | Tarea | Historia de Usuario | Módulo | Sprint | Estado | Desarrollador | Depende de | Rechazos |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | RF-01 | Formulario de alta y validación de recetas | HU-01 | — | — | testing | Sin asignar | — | — |
 | 2 | RF-02 | Filtros por categoría y mensaje de resultados vacíos | HU-02 | — | — | Hecho | dev2-dashboard | — | — |
