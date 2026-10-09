@@ -1,6 +1,6 @@
 # Historias de Usuario --  RecetasPanaRossi
 
-_Generado automaticamente el 2026-10-09T14:42:16.586Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-10-09T16:55:18.984Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Creación y publicación de recetas de cocina
 
